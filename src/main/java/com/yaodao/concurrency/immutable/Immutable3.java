@@ -2,6 +2,7 @@ package com.yaodao.concurrency.immutable;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.yaodao.concurrency.annoations.ThreadSafe;
 import jdk.nashorn.internal.ir.annotations.Immutable;
@@ -28,8 +29,8 @@ public class Immutable3 {
 
 
     public static void main(String[] args) {
-        map1.put(1, 21);
-        map2.put(1, 2);
+        map1.put(2, 21);
+        map2.put(7, 2);
         list1.add(1);
         list2.add(1);
     }

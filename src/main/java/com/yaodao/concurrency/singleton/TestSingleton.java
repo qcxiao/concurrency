@@ -26,11 +26,11 @@ public class TestSingleton {
                     semaphore.acquire();
                     //LazySingleton1.getInstance();
                     //LazySingleton2.getInstance();
-                    //LazySingleton3.getInstance();
+                    LazySingleton3.getInstance();
                     //LazySingleton4.getInstance();
                     //HungrySingleton1.getInstance();
-                    HungrySingleton2 hungrySingleton2 = HungrySingleton2.getInstance();
-                    log.info("{}", hungrySingleton2);
+                    //HungrySingleton2 hungrySingleton2 = HungrySingleton2.getInstance();
+                    //log.info("{}", hungrySingleton2);
                     semaphore.release();
                 } catch (Exception e) {
                     log.error("exception", e);
