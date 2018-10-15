@@ -1,4 +1,4 @@
-package com.yaodao.concurrency.annoations;
+package com.yaodao.concurrency._1.annoations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

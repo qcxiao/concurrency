@@ -1,6 +1,6 @@
 package com.yaodao.concurrency.singleton;
 
-import com.yaodao.concurrency.annoations.NotThreadSafe;
+import com.yaodao.concurrency._1.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 /**

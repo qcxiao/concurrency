@@ -1,10 +1,9 @@
 package com.yaodao.concurrency.immutable;
 
 import com.google.common.collect.Maps;
-import com.yaodao.concurrency.annoations.NotThreadSafe;
+import com.yaodao.concurrency._1.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.Collections;
 import java.util.Map;
 
 

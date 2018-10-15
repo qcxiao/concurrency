@@ -1,7 +1,6 @@
 package com.yaodao.concurrency.sharedata;
 
-import com.yaodao.concurrency.annoations.NotThreadSafe;
-import com.yaodao.concurrency.annoations.ThreadSafe;
+import com.yaodao.concurrency._1.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -32,10 +31,11 @@ public class ThreadExaple2 {
 
                 }
                 // 每个线程自增100次
-                for (int j = 0; j < 100; j++)
+                for (int j = 0; j < 100; j++){
                     synchronized (ThreadExaple2.class) {
                         count++;
                     }
+                }
             }).start();
         }
         Thread.sleep(1000);

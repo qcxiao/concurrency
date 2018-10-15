@@ -2,14 +2,9 @@ package com.yaodao.concurrency.immutable;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.yaodao.concurrency.annoations.ThreadSafe;
-import jdk.nashorn.internal.ir.annotations.Immutable;
+import com.yaodao.concurrency._1.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
